@@ -1,0 +1,94 @@
+{
+  "lastGeneratedId": 13,
+  "data": {
+    "Blogs": [
+      {
+        "userId": 1,
+        "title": "Is renewable deployment suffering from fossil fuel lock-in?",
+        "body": "While the peak electricity supply reached 15,604MW in Bangladesh at the beginning of summer, many areas, mostly outside Dhaka, have been facing long hours of load-shedding and disruption of economic activities. The reason behind the current crisis is not the lower installed capacity, but the inability to buy imported energy to run the existing power plants and interrupted services due to technical inefficiency.",
+        "id": 1
+      },
+      {
+        "userId": 1,
+        "title": "Why the reluctance to pursue renewables?",
+        "body": "Despite Bangladesh's professed commitments towards the environment and its role as a climate champion on the global stage, it is deplorable that the government has continued to focus heavily on fossil fuels, ignoring much needed investments in renewables.",
+        "id": 2
+      },
+      {
+        "userId": 1,
+        "title": "Energy-poor Bangladesh and its transition obligations",
+        "body": "The 2015 Paris Agreement intended to hold the increase in the global average temperature to well below 2 degrees Celsius above pre-industrial levels and pursue efforts to limit the temperature increase to 1.5 degrees Celsius above pre-industrial levels.",
+        "id": 4
+      },
+      {
+        "userId": 1,
+        "title": "COP28 outcome: The road (not taken) towards a fossil-free future",
+        "body": "The 28th annual climate summit (COP28) concluded with a mixed set of reactions, ranging from welcoming to downright dismissive. After a series of intense negotiations and heated debates, the outcome of the first global stocktake (GST) recognises, for the first time, the need for transitioning away from fossil fuels in energy systems.",
+        "id": 7
+      },
+      {
+        "userId": 1,
+        "title": "COP28’s hollow victory",
+        "body": "It's the hottest year in recorded human history, and quite possibly the hottest the planet has been in 100,000 years. Reports of hellish wildfires, extreme temperatures, devastating floods, cyclones, and other climate disasters have become routine global headlines. Climate scientists are desperately sounding the alarm bells, warning that the Earth's 'vital signs' are worse than at any time in human history.",
+        "id": 8
+      },
+      {
+        "userId": 1,
+        "title": "Conflicts over fossil fuel overshadowed COP28",
+        "body": "The recently concluded annual climate change conference (COP28) in Dubai fell much short of the expectations laid on it. The day-one announcement of setting up a $400 million Loss and Damage Fund—to compensate poor states for real losses incurred due to the impacts of climate change—is too little to meet its objectives.",
+        "id": 9
+      }
+    ],
+    "Comments": [
+      {
+        "blogId": 1,
+        "name": "John Doe",
+        "email": "john@gmail.com",
+        "body": "Test comment",
+        "id": 3
+      },
+      {
+        "blogId": 2,
+        "name": "Merry Jane",
+        "email": "jane@gmail.com",
+        "body": "Test comment",
+        "id": 5
+      },
+      {
+        "blogId": 3,
+        "name": "Norman F",
+        "email": "norman@gmail.com",
+        "body": "Test comment",
+        "id": 6
+      },
+      {
+        "blogId": 8,
+        "name": "Norman F",
+        "email": "norman@gmail.com",
+        "body": "Test comment",
+        "id": 10
+      },
+      {
+        "blogId": 9,
+        "name": "Merry Jane",
+        "email": "jane@gmail.com",
+        "body": "Test comment",
+        "id": 11
+      },
+      {
+        "blogId": 7,
+        "name": "John Doe",
+        "email": "john@gmail.com",
+        "body": "Test comment",
+        "id": 12
+      },
+      {
+        "blogId": 4,
+        "name": "R Macgil",
+        "email": "mac@gmail.com",
+        "body": "Test comment",
+        "id": 13
+      }
+    ]
+  }
+}

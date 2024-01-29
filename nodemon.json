@@ -1,0 +1,11 @@
+{
+  "ignore": [
+    ".vscode",
+    "node_modules",
+    "nodemon.json",
+    "memory-db.json",
+    "package-lock.json",
+    "package.json",
+    "postman-collection.json"
+  ]
+}
