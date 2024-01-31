@@ -1,11 +1,13 @@
-const asyncFileSystem = require('fs/promises');
+const asyncFileSystem = require("fs/promises");
 
-const isUndefinedOrNull = obj => {
-  return typeof obj === 'undefined' || obj === null;
+const isUndefinedOrNull = (obj) => {
+  return typeof obj === "undefined" || obj === null;
 };
 
-const cloneObject = obj => {
-  if (isUndefinedOrNull(obj)) { return undefined; }
+const cloneObject = (obj) => {
+  if (isUndefinedOrNull(obj)) {
+    return undefined;
+  }
 
   const json = JSON.stringify(obj);
   const clonedObject = JSON.parse(json);
@@ -13,28 +15,34 @@ const cloneObject = obj => {
   return clonedObject;
 };
 
-const readTextFileAsync = async filePath => {
+const readTextFileAsync = async (filePath) => {
   try {
     const content = await asyncFileSystem.readFile(filePath, {
-      encoding: 'utf-8',
+      encoding: "utf-8",
     });
 
     return content;
   } catch (error) {
-    console.error('An error occurred while reading the file, \'' + filePath + '\'.', error);
+    console.error(
+      "An error occurred while reading the file, '" + filePath + "'.",
+      error
+    );
   }
-  
-  return '';
+
+  return "";
 };
 
 const writeTextFileAsync = async (content, filePath) => {
   try {
     await asyncFileSystem.writeFile(filePath, content, {
-      flag: 'w',
-      encoding: 'utf-8',
+      flag: "w",
+      encoding: "utf-8",
     });
   } catch (error) {
-    console.error('An error occurred while writing to file, \'' + filePath + '\'.', error);
+    console.error(
+      "An error occurred while writing to file, '" + filePath + "'.",
+      error
+    );
 
     return false;
   }
